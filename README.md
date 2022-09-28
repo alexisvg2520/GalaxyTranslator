@@ -1,8 +1,8 @@
 # GalaxyTranslator
 
-##Solución al problema propuesto
+## Solución al problema propuesto
 
-###1. Guía del comerciante para la galaxia
+### 1. Guía del comerciante para la galaxia
 Decidiste migrar de la tierra después de que el último colapso financiero dejara al 99,99% de la población de la tierra con el 0,01% de la riqueza. Afortunadamente, con la escasa suma de dinero que queda en su cuenta, puede permitirse el lujo de alquilar una nave espacial, abandonar la Tierra y volar por toda la galaxia para vender metales y tierra comunes (lo que aparentemente vale mucho).
 
 Comprar y vender en la galaxia requiere que conviertas números y unidades, y decidiste escribir un programa para ayudarte.
@@ -21,7 +21,7 @@ Los números romanos se basan en siete símbolos:
 | L  | 5  |
 | M  | 1  |
 
-###2. Restricciones de números romanos
+### 2. Restricciones de números romanos
 
 Los números se forman combinando símbolos y sumando los valores. Por ejemplo, MMVI es 1000 + 1000 + 5 + 1 = 2006. Generalmente, los símbolos se colocan en orden de valor, comenzando con los valores más grandes. Cuando los valores más pequeños preceden a los valores más grandes, los valores más pequeños se restan de los valores más grandes y el resultado se suma al total. Por ejemplo MCMXLIV = 1000 + (1000 - 100) + (50 - 10) + (5 - 1) = 1944.
 
@@ -33,13 +33,13 @@ Solo se puede restar un símbolo de valor pequeño de cualquier símbolo de valo
 
 Un número escrito en números arábigos se puede dividir en dígitos. Por ejemplo, 1903 se compone de 1, 9, 0 y 3. Para escribir el número romano, cada uno de los dígitos distintos de cero debe tratarse por separado. En el ejemplo anterior, 1,000 = M, 900 = CM y 3 = III. Por lo tanto, 1903 = MCMIII.
 
-3.3 Ingreso de datos
+### 3. Ingreso de datos
 La entrada a su programa consiste en líneas de texto que detallan sus notas sobre la conversión entre unidades intergalácticas y números romanos.
 
 Se espera que maneje las consultas no válidas de manera adecuada.
 
 Ingreso:
-
+```
 glob is I
 
 prok is V
@@ -63,9 +63,9 @@ how many Credits is glob prok Gold ?
 how many Credits is glob prok Iron ?
 
 how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
-
+```
 Respuesta:
-
+```
 pish tegj glob glob es 42
 
 glob prok Silver es de 68 créditos
@@ -75,3 +75,4 @@ glob prok Gold es 57800 créditos
 glob prok Iron tiene 782 créditos
 
 No tengo ni idea de lo que estás hablando
+```
